@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdulhafiz Mohammed | Portfolio</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap">
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header/Navbar -->
+    <nav class="navbar">
+        <a href="#" class="logo">Abdiman</a>
+        <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-info">
+            <h1>Abdulhafiz Mohammed</h1>
+            <h2>I'm a 
+                <span style="--i:4;" data-text="Fullstack Developer">Fullstack Developer</span>
+                <span style="--i:3;" data-text="Problem solver">Problem solver</span>
+                <span style="--i:2;" data-text="Debugger">Debugger</span>
+                <span style="--i:1;" data-text="Designer">Designer</span>
+            </h2>
+            <p>Detail-oriented web developer with a passion for creating innovative and user-friendly websites. Experienced in front-end and back-end technologies, problem-solving, and collaborating with cross-functional teams.</p>
+            
+            <div class="btn-sci">
+                <a href="#contact" class="btn">Hire me</a>
+                <div class="sci">
+                    <a href="#"><i class="bx bxl-github"></i></a>
+                    <a href="#"><i class="bx bxl-linkedin"></i></a>
+                    <a href="#"><i class="bx bxl-twitter"></i></a>
+                    <a href="https://youtube.com/@hafizomuhammed?si=Yf1cnlKcoNcxmigG"><i class="bx bxl-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="./firprofile.jpg" alt="Abdulhafiz Mohammed">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span></h2>
+        <div class="about-content">
+            <div class="about-img">
+                <img src="./firprofile.jpg" alt="Abdulhafiz Mohammed">
+            </div>
+            <div class="about-text">
+                <h3>Fullstack Developer</h3>
+                <p>I am a passionate software engineering student with a strong focus on web development. My journey in programming began with a curiosity about how websites work, and it has grown into a deep passion for creating digital solutions.</p>
+                <p>What excites me most about development is the problem-solving aspect - taking complex challenges and breaking them down into elegant solutions. I particularly enjoy working with JavaScript and its ecosystems, building interactive and responsive web applications.</p>
+                <p>When I'm not coding, you can find me contributing to open-source projects, learning new technologies, or sharing my knowledge through tutorials and blog posts.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-container">
+            <div class="skills-box">
+                <i class="bx bx-code-alt"></i>
+                <h3>Frontend Development</h3>
+                <ul>
+                    <li>HTML5 & CSS3</li>
+                    <li>JavaScript (ES6+)</li>
+                    <li>React.js</li>
+                    <li>Responsive Design</li>
+                    <li>Bootstrap/Tailwind</li>
+                </ul>
+            </div>
+            <div class="skills-box">
+                <i class="bx bx-server"></i>
+                <h3>Backend Development</h3>
+                <ul>
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                    <li>RESTful APIs</li>
+                    <li>MongoDB</li>
+                    <li>MySQL</li>
+                </ul>
+            </div>
+            <div class="skills-box">
+                <i class="bx bx-cog"></i>
+                <h3>Other Skills</h3>
+                <ul>
+                    <li>Git & Version Control</li>
+                    <li>Problem Solving</li>
+                    <li>Debugging</li>
+                    <li>UI/UX Principles</li>
+                    <li>Agile Methodologies</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <h2 class="heading">My <span>Education</span></h2>
+        <div class="education-container">
+            <div class="education-box">
+                <h3>Bachelor of Science in Software Engineering</h3>
+                <p>Adama Science and Technology University (ASTU) - Currently enrolled</p>
+                <p>Expected Graduation: 2025</p>
+                
+                <h3 style="margin-top: 20px;">Relevant Courses</h3>
+                <ul>
+                    <li>Web Development</li>
+                    <li>Data Structures and Algorithms</li>
+                    <li>Database Management Systems</li>
+                    <li>Object-Oriented Programming</li>
+                    <li>Computer Networks</li>
+                    <li>Software Engineering Principles</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by Abdulhafiz Mohammed | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
